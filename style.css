@@ -1,4 +1,4 @@
-header,nav,section,aside, footer {
+header, nav, section, footer {
     padding:5%;
     background-color: lightgrey;
     text-align: center;
@@ -15,15 +15,22 @@ body {
 }
 
 section {
-    width: 40%;
+    width: 46%;
     height: 20%;
-    margin: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    float: left;
+    padding-top: 12%;
+    text-align:center;
 }
 
 article {
     background-color: gray;
-    padding: 5%;
+    padding: 5px;
     color: white;
+    margin: -7%;
 }
 
 h1, p {
@@ -34,6 +41,19 @@ h1, p {
 }
 
 aside {
-    
+    width: 39%;
+    height: 229px;
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    float: left;
+    color: gray;
+    background-color: lightgray;
+    text-align: center
+}
+.clearfix {
+    overflow: auto;
+    clear: both;
 }
 
